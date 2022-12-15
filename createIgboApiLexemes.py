@@ -31,7 +31,7 @@ lexemeWordClasses = {
     "QTF": "Q1909485",
 }
 
-def handleLexemesSubmitToWikidata(newlexeme, push=True):
+def handleLexemesSubmitToWikidata(newlexeme, push=False):
     current_session = tfsl.WikibaseSession(MY_USERNAME, PASSWORD)
     #submitting lexeme
     if push:

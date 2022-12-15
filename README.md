@@ -24,11 +24,10 @@ Make sure this ends up in your PYTHONPATH.
 
 By running export PYTHONPATH=$PYTHONPATH:/path/to/tfsl in your terminal
 
-Now install its dependencies, again substituting the path accordingly:
 
-While using windows you may need to add the cloned directory in your python path local.
+While using windows you may need to add the cloned directory in your python path locally.
 
-follow steps belows to add the directory to your python PATH
+follow below steps to add the directory to your python PATH
 
 -Click on PC, hover your mouse to the right side where we have evices and Drives. Right click and choose properties
 -Clicking on the Advanced system settings in the menu on the left.
@@ -38,6 +37,9 @@ follow steps belows to add the directory to your python PATH
 or 
 -Copy the path of Python folder.
 -Paste path of Python in variable value. Click on Ok button: Click on Ok button:
+
+
+Now install its dependencies, again substituting the path accordingly:
 
 pip install -r /path/to/tfsl/requirements.txt
 
