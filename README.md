@@ -18,5 +18,30 @@ The activities of this work package includes:
 - Deliverable: Enhancing the current process of importing and adding new lexemes into Wikidata via a publicly accessible API. As a proof of concept, 500 Igbo words will be imported into Wikidata Lexicographical data
 
 
+## Setup
+Clone this repository.
+Make sure this ends up in your PYTHONPATH.
+
+By running export PYTHONPATH=$PYTHONPATH:/path/to/tfsl in your terminal
+
+Now install its dependencies, again substituting the path accordingly:
+
+While using windows you may need to add the cloned directory in your python path local.
+
+follow steps belows to add the directory to your python PATH
+
+-Click on PC, hover your mouse to the right side where we have evices and Drives. Right click and choose properties
+-Clicking on the Advanced system settings in the menu on the left.
+-Clicking on the Environment Variables button o​n the bottom right.
+-In the System variables section, selecting the Path variable and clicking on Edit. The next screen will show all the directories that are currently a part of the PATH variable.
+-Clicking on New and entering Python’s install directory.
+or 
+-Copy the path of Python folder.
+-Paste path of Python in variable value. Click on Ok button: Click on Ok button:
+
+pip install -r /path/to/tfsl/requirements.txt
+
+
+
 # How to Run
-**TODO:** Detail the steps needed to reproduce this program - from installation down to which python file to run.
+
