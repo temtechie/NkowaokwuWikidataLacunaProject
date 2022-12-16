@@ -43,7 +43,18 @@ Now install its dependencies, again substituting the path accordingly:
 
 pip install -r /path/to/tfsl/requirements.txt
 
+This Project runs fine on python 3.8+ versions
+
 
 
 # How to Run
+
+After the successfully installation of this project, Navigate to createIgboApiLexemes.py file.
+To start adding lexemes to wikidata, make sure the second argument (e.g push=False) of  handleLexemesSubmitToWikidata function in line 34 is set to push=True
+
+Click run python. 
+it will prompt you to enter keyword i.e alphabet
+secondly you will be requested to enter the number of pages you want the api call response to return e.g 1-25
+
+hit enter every words responses from the api call that does not exist in wikidata get added to wikidata along with  its lexemes, senses, usages examples, and references. 
 
